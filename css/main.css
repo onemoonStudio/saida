@@ -1,0 +1,170 @@
+@font-face{font-family:'Nanum Square'; src:url('../font/NanumSquareRoundEB.ttf')}
+
+*{padding: 0px; margin: 0px; box-sizing: border-box; border: none;}
+html{height: 100%;}
+.wrapper{width: 100%; height: 100%;}
+.in-block{display: inline-block;}
+._back{background-repeat:no-repeat; background-size:contain; background-position: center;}
+.hide{display: none;}
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Home
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.home.outer{ height: 100vh;  background-image: url("../imgs/home_back.png"); background-repeat:no-repeat; background-size:contain; background-position: center;} 
+
+.home.inner{ width:100%; height: 100%; text-align: center;}
+
+.main_contents{ position: absolute;  width: 300px; height: 200px; bottom: 50px; margin-left: -150px; border: 3px solid black;}
+.main_contents:hover{cursor: pointer;}
+
+
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Home_c
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.home_c.outer{ height: 100vh;  background-image: url("../imgs/home_c_back.png"); background-repeat:no-repeat; background-size:contain; background-position: center;} 
+
+.home_c.inner{ width:100%; height: 100%; text-align: center;}
+
+.home_c .btn_wrapper{ position: absolute; width: 230px; height: 210px;  margin-left: -115px; background-image: url("../imgs/ch_line_T.png"); top: 320px;}
+.home_c .btn_wrapper.ch_hover{background-image: url("../imgs/ch_line_B.png");}
+.home_c .btn_wrapper:nth-child(1){margin-left: -480px;}
+.home_c .btn_wrapper:nth-child(2){margin-left: -240px;}
+.home_c .btn_wrapper:nth-child(3){margin-left: 10px;}
+.home_c .btn_wrapper:nth-child(4){margin-left: 250px;}
+
+.home_c .btn_wrapper:nth-child(1) > .ch_image{background-image: url("../imgs/ch_ym.png");}
+.home_c .btn_wrapper:nth-child(2) > .ch_image{background-image: url("../imgs/ch_yw.png");}
+.home_c .btn_wrapper:nth-child(3) > .ch_image{background-image: url("../imgs/ch_mm.png");}
+.home_c .btn_wrapper:nth-child(4) > .ch_image{background-image: url("../imgs/ch_mw.png");}
+
+
+
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Home_epi
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.home_epi.outer{ height: 100vh;  background-image: url("../imgs/home_epi_back.png"); background-repeat:no-repeat; background-size:contain; background-position: center;} 
+
+.home_epi.inner{ width:100%; height: 100%; text-align: center;}
+
+.home_epi .btn_wrapper{ position: absolute; width: 300px; height: 250px;  margin-left: -115px; background-image: url("../imgs/ch_line_T.png"); top: 320px;}
+.home_epi .btn_wrapper.ch_hover{background-image: url("../imgs/ch_line_B.png");}
+.home_epi .btn_wrapper:nth-child(1){margin-left: -450px;}
+.home_epi .btn_wrapper:nth-child(2){margin-left: -150px;}
+.home_epi .btn_wrapper:nth-child(3){margin-left: 150px;}
+
+
+.home_epi .btn_wrapper:nth-child(1) > .ch_image{background-image: url("../imgs/epi_bus.png");}
+.home_epi .btn_wrapper:nth-child(2) > .ch_image{background-image: url("../imgs/epi_job.png");}
+.home_epi .btn_wrapper:nth-child(3) > .ch_image{background-image: url("../imgs/epi_school.png");}
+
+
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Mov
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+
+
+.mov.outer{ height: 100vh; width: 100%; text-align: center;} 
+
+.mov.inner{ width:80%; height: 100%; text-align: center; }
+
+.mov.inner > video{z-index: 1000;}
+
+
+
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Toon
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+
+
+
+.toon.outer{ height: 100vh; background-repeat:no-repeat; background-size:contain; background-position: center;} 
+.toon.outer.ym_bus{background-image: url("../imgs/toon_ym_bus.png"); }
+.toon.outer.yw_bus{background-image: url("../imgs/toon_yw_bus.png"); }
+.toon.outer.mm_bus{background-image: url("../imgs/toon_mm_bus.png"); }
+.toon.outer.mw_bus{background-image: url("../imgs/toon_mw_bus.png"); }
+
+.toon.outer.ym_job{background-image: url("../imgs/toon_ym_job.png"); }
+.toon.outer.yw_job{background-image: url("../imgs/toon_yw_job.png"); }
+.toon.outer.mm_job{background-image: url("../imgs/toon_mm_job.png"); }
+.toon.outer.mw_job{background-image: url("../imgs/toon_mw_job.png"); }
+
+.toon.outer.ym_school{background-image: url("../imgs/toon_ym_school.png"); }
+.toon.outer.yw_school{background-image: url("../imgs/toon_yw_school.png"); }
+.toon.outer.mm_school{background-image: url("../imgs/toon_mm_school.png"); }
+.toon.outer.mw_school{background-image: url("../imgs/toon_mw_school.png"); }
+
+.toon.inner{ width:100%; height: 100%; text-align: center; }
+
+.toon.inner._back{background-image: url("../imgs/last_page_back.png");}
+
+#toon_bus_text{position: absolute; border: none;  width: 130px; height: 150px; font-size: 18px; font-family: "Nanum Square"; background-color: transparent;}
+
+.ym_bus #toon_bus_text {top:520px; right: 445px;}
+.yw_bus #toon_bus_text {top:540px; right: 430px;}
+.mm_bus #toon_bus_text {top:550px; right: 430px;}
+.mw_bus #toon_bus_text {top:500px; right: 445px;}
+
+.ym_job #toon_bus_text {top:480px; right: 630px;}
+.yw_job #toon_bus_text {top:480px; right: 630px;}
+.mm_job #toon_bus_text {top:480px; right: 630px;}
+.mw_job #toon_bus_text {top:480px; right: 630px;}
+
+.ym_school #toon_bus_text {top:490px; right: 470px;}
+.yw_school #toon_bus_text {top:490px; right: 470px;}
+.mm_school #toon_bus_text {top:490px; right: 470px;}
+.mw_school #toon_bus_text {top:490px; right: 470px;}
+
+a.toon_btn{position: absolute; }
+
+a.toon_btn.go_to_back{bottom: 30px; width: 150px; height: 70px; background-image: url("../imgs/go_to_back.png"); left: 350px; }
+a.toon_btn.go_to_next{right: 150px; background-image: url("../imgs/go_to_next.png"); width:100px; height: 200px; top: 350px;}
+
+
+
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                Last
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+
+.last_btn{position: absolute;  bottom: 170px; width: 200px; height: 100px; cursor: pointer;}
+#last_gotofirst{left:600px;}
+#last_print{right: 600px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
